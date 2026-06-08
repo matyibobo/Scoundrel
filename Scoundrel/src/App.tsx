@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Dungeon from './Components/Dungeon'
 
 const App = () => {
 
@@ -13,7 +14,7 @@ const App = () => {
 
   return (
     <div>
-      {deck}
+      {Dungeon(deck)}
     </div>
   )
 }
